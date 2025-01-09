@@ -1,0 +1,21 @@
+# Roteiro para o Vídeo: Instalação do Alfresco Community no Linux
+
+## 1. Introdução (30-60 segundos)
+Apresente o vídeo e explique o objetivo.
+
+**Exemplo:**
+> "Olá, pessoal! Hoje vou ensinar vocês a instalar o Alfresco Community, uma poderosa ferramenta de gestão de documentos, no Linux. Vamos configurar tudo do zero, incluindo dependências, banco de dados e o próprio Alfresco. Vamos nessa!"
+
+---
+
+## 2. Preparativos (1-2 minutos)
+- Mostre o ambiente de trabalho, como o terminal Linux (Ubuntu, Debian, ou CentOS).
+- Liste os pré-requisitos:
+  - Máquina com Linux (mínimo 4GB RAM, 40GB disco).
+  - Acesso root ou `sudo`.
+  - Conexão com a internet.
+- Explique o software usado para gravação, como VirtualBox, VMware ou Proxmox, se estiver em uma VM.
+
+**Comandos mostrados:**
+```bash
+sudo apt update && sudo apt upgrade -y
